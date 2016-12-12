@@ -6,7 +6,7 @@ You will also need a Twitter API key, which you can get by creating a new app [o
 
 # Running the Word Forest Bot
 
-Once your keys are filled in, you can run the Word Forest bot with `python3 run_wordforest.py`. You will probably want to edit the stream filter away from listening for mentions of `@wordforest`, since you don't own that account.
+Once your keys are filled in, you can run the Word Forest bot with `python3 run_wordforest.py`. You will probably want to edit the stream filter away from listening for mentions of `@wordforest`, since you don't own that account. You can push the repository to a Heroku dyno as a git remote with the included `Procfile`, `requirements.txt`, and `runtime.txt` and it should work!
 
 # Testing Word Forest
 
