@@ -35,7 +35,6 @@ def get_all_tweets(screen_name):
 
 		print("...%s tweets downloaded so far" % (len(alltweets)))
 
-	#outtweets = [[tweet.id_str, tweet.created_at, tweet.text.encode("utf-8")] for tweet in alltweets]
 	outtweets = []
 
 	for tweet in alltweets:
